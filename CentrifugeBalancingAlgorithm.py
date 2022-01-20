@@ -17,7 +17,7 @@ class Tube:
     def __init__(self, data):
         self.data = data
 
-
+# Main function to balance a given number of tubes (numTubesBalance)
 def bc(numTubesBalance):
     c = Centrifuge(24)
     c.erase()
